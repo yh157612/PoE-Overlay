@@ -27,12 +27,12 @@ export class UserSettingsService {
                 let mergedSettings: UserSettings = {
                     openUserSettingsKeybinding: 'F7',
                     exitAppKeybinding: 'F8',
-                    language: Language.English,
-                    uiLanguage: UiLanguage.English,
+                    language: Language.TraditionalChinese,
+                    uiLanguage: UiLanguage.TraditionalChinese,
                     zoom: 100,
                     dialogSpawnPosition: DialogSpawnPosition.Center,
                     displayVersion: true,
-                    autoDownload: true
+                    autoDownload: false
                 };
 
                 modules.forEach(x => {

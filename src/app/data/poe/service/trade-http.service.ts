@@ -120,7 +120,7 @@ export class TradeHttpService {
             //     baseUrl = environment.poe.simplifiedChineseUrl;
             //     break;
             case Language.TraditionalChinese:
-                baseUrl = environment.poe.traditionalChineseUrl;
+                // baseUrl = environment.poe.traditionalChineseUrl;
                 break;
             default:
                 throw new Error(`Could not map baseUrl to language: '${language}'.`);

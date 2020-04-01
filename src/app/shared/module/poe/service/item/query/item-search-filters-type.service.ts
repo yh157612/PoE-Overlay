@@ -15,6 +15,9 @@ export class ItemSearchFiltersTypeService implements ItemSearchFiltersService {
             filters: {}
         };
 
+        if (language === Language.TraditionalChinese) {
+            language = Language.English;
+        }
         const name = this.itemNameService.getName(item.nameId, language);
         if (name) {
             query.name = name;

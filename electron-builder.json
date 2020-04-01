@@ -1,8 +1,5 @@
 {
     "productName": "poe-overlay",
-    "publish": {
-        "provider": "github"
-    },
     "directories": {
         "output": "release/"
     },
@@ -20,7 +17,6 @@
     "win": {
         "icon": "dist/favicon.ico",
         "target": [
-            "nsis",
             "portable"
         ],
         "publisherName": [
